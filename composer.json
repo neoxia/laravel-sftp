@@ -4,8 +4,8 @@
     "description": "SFTP filesystem service provider for Laravel",
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
-        "illuminate/filesystem": "5.1.*|5.2.*|5.3.*|5.4.*",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+        "illuminate/filesystem": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
         "league/flysystem-sftp": "1.0.*"
     },
     "autoload": {
