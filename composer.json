@@ -12,5 +12,12 @@
          "psr-4": {
             "Neoxia\\": "src/Neoxia/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neoxia\\Filesystem\\SftpServiceProvider"
+            ]
+        }
     }
 }
