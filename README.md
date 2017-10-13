@@ -6,15 +6,14 @@ This package provide a service provider to add the "sftp" driver to Laravel Stor
 
 ## Installation
 
-In order to install this package, add `neoxia/laravel-sftp` in `composer.json`.
+Require this package with composer using the following command:
 
-```JS
-"require": {
-    "neoxia/laravel-sftp": "1.0.*"
-},
+```
+composer require neoxia/laravel-sftp
 ```
 
-And add the service provider in `config/app.php`.
+As of Laravel 5.5, this package will be automatically discovered and registered.
+For older version of Laravel, add the service provider in `config/app.php`.
 
 ```PHP
 Neoxia\Filesystem\SftpServiceProvider::class,
