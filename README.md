@@ -31,7 +31,7 @@ To configure a new Laravel storage disk on SFTP, provide a configuration like th
         'host'       => env('SFTP_HOST', ''),
         'port'       => env('SFTP_PORT', '21'),
         'username'   => env('SFTP_USERNAME', ''),
-        'password'   => env('SFTP_PASSSWORD', ''),
+        'password'   => env('SFTP_PASSWORD', ''),
         'privateKey' => env('SFTP_PRIVATE_KEY_PATH', ''),
         'root'       => env('SFTP_ROOT', ''),
         'timeout'    => env('SFTP_TIMEOUT', '10'),
