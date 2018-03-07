@@ -1,3 +1,5 @@
+:warning: The SFTP service provider is present natively in Laravel since [v5.6.7](https://github.com/laravel/framework/releases/tag/v5.6.7). You should avoid using this package if you are in a version of Laravel higher than this one.
+
 [![Latest Stable Version](http://img.shields.io/github/release/neoxia/laravel-sftp.svg)](https://packagist.org/packages/neoxia/laravel-sftp)
 
 ## Laravel SFTP
