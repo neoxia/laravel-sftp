@@ -13,8 +13,9 @@ Require this package with composer using the following command:
 ```
 composer require neoxia/laravel-sftp
 ```
+## Notice
 
-As of Laravel 5.5, this package will be automatically discovered and registered.
+As of *Laravel 5.5*, this package will be automatically discovered and registered.
 For older version of Laravel, add the service provider in `config/app.php`.
 
 ```PHP
@@ -41,3 +42,7 @@ To configure a new Laravel storage disk on SFTP, provide a configuration like th
 
 ],
 ```
+
+## Licence
+
+MIT Licence. Refer to the [LICENSE](https://github.com/neoxia/laravel-sftp/blob/master/LICENSE.md) file to get more info.
